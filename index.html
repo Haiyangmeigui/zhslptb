@@ -156,7 +156,7 @@
           tempSeconds = 100
           loadintT.innerHTML = 'loading......' + parseInt(tempSeconds) + '%';
         }
-      }, t * 100);
+      }, t * 1000);
     }
     function actualTotal() {
       var percent = parseInt(100 * loadData.completedCount / loadData.totalCount);
